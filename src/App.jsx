@@ -34,7 +34,7 @@ function App() {
       console.log(`\n\t\t{\n\t\t\t'key': '${rule}',\n\t\t\t'output':{\n\t\t\t\t'value':${value},\n\t\t\t\t'operator':'${opertor}',\n\t\t\t\t'score':${score}\n\t\t\t},\n\t\t},\n\t],`);
     })
     console.log(`\t'combinator': '${combinator}',\n}`)
-  },[rule,opertor,value,score,expression,combinator])
+  },[rule,opertor,value,score,expression,combinator,deleteTask])
   return (
     <>
     <h1 className="text-primary text-center">Expression Form</h1>
